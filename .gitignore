@@ -1,0 +1,58 @@
+# Qt / build output
+build/
+build*/
+debug/
+release/
+*.user
+*.pro.user
+*.pro.user.*
+.qmake.stash
+Makefile
+Makefile.*
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# IDE
+.idea/
+.vscode/
+.qtcreator/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Runtime output
+runs/
+database/*.db
+database/*.db-*
+
+# Dataset / model weights / export artifacts
+Vehicles-dataset/
+yolov9-main/
+models/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+
+# Local logs / temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Third-party binaries can be downloaded separately
+third_party/
+
+# Local backups
+backup_old_qt_*/
+
+# Large optional datasets can be shared separately if needed
+Vehicles-dataset/_duplicates_backup/
