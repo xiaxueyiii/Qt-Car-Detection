@@ -54,5 +54,24 @@ third_party/
 # Local backups
 backup_old_qt_*/
 
+# Legacy root-level prototype files not used by the current src/ project
+/autolabelpage.cpp
+/autolabelpage.h
+/datasetpage.cpp
+/datasetpage.h
+/genericpage.cpp
+/genericpage.h
+/labelmanagepage.cpp
+/labelmanagepage.h
+/main.cpp
+/mainwindow.cpp
+/mainwindow.h
+/mainwindow.ui
+/mock_train.py
+/sampleeditpage.cpp
+/sampleeditpage.h
+/trainpage.cpp
+/trainpage.h
+
 # Large optional datasets can be shared separately if needed
 Vehicles-dataset/_duplicates_backup/
